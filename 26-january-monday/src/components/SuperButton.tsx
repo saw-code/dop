@@ -27,12 +27,9 @@ export const SuperButton: React.FC<SuperButtonPropsType> = (props) => {
 //в зависимости от типа и дизэйбла прицепить нужный класс в SuperButton.tsx
 // const finalClassName = s.button
 //   + (disabled
-//     ? ' ' + s.disabled
-//     : color === 'red'
-//       ? ' ' + s.red
-//       : color === 'secondary'
-//         ? ' ' + s.secondary
-//         : ' ' + s.default)
+//     ? ' ' + s.disabled : color === 'red'
+//     ? ' ' + s.red : color === 'secondary'
+//     ? ' ' + s.secondary : ' ' + s.default)
 //   + (className ? ' ' + className : '')
 
 

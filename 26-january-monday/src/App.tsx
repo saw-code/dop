@@ -14,12 +14,9 @@ function App() {
 
   return (
     <div>
-      <SuperButton callBack={() => {
-      }} color="red">RED SUPER BUTTON</SuperButton>
-      <SuperButton callBack={() => {
-      }}>DEFAULT SUPER BUTTON</SuperButton>
-      <SuperButton callBack={() => {
-      }} color={"secondary"} disabled>RED SUPER BUTTON</SuperButton>
+      <SuperButton callBack={() => {}} color="red">RED SUPER BUTTON</SuperButton>
+      <SuperButton callBack={() => {}}>DEFAULT SUPER BUTTON</SuperButton>
+      <SuperButton callBack={() => {}} color="secondary" disabled>RED SUPER BUTTON</SuperButton>
 
       <div>------------------------------------------------------------------------------------------------------</div>
 
@@ -66,8 +63,7 @@ function App() {
         }} color="red">RED SUPER BUTTON</SuperButton>
         <SuperButton callBack={() => {
         }}>DEFAULT SUPER BUTTON</SuperButton>
-        <SuperButton callBack={() => {
-        }} color={"secondary"} disabled>RED SUPER BUTTON</SuperButton>
+        <SuperButton callBack={() => {}} color={"secondary"} disabled>RED SUPER BUTTON</SuperButton>
         <div>some text</div>
         <div>some text</div>
         <div>some text</div>

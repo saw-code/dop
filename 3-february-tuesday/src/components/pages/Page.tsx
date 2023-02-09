@@ -1,13 +1,9 @@
 import React from 'react';
-import {dataState, PagesType} from "../../data/dataState";
+import {DataStateType} from "../../data/dataState";
 import {useParams} from "react-router-dom";
 import {Content} from "../Content";
 
-type PropsType = {
-  pages: Array<PagesType>
-}
-
-export const Page = (props: PropsType) => {
+export const Page = (props: DataStateType) => {
 
   const params = useParams()
 
